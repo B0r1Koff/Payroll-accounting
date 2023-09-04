@@ -1,0 +1,31 @@
+.prophile{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+  }
+  
+  .pr0{
+    border-right: 1px solid black;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .pr1, .pr2{
+    text-align: center;
+    width: 100%;
+  }
+  
+  .a{
+    text-align: end;
+    color: black;
+    font-size: 130%;
+  }
+  
+  .b{
+    text-align: start;
+    color: black;
+    font-size: 130%;
+  }

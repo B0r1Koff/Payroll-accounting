@@ -1,0 +1,122 @@
+.Page{
+  display: flex;
+  flex-direction: row;
+}
+
+.Content{
+  width: 85%;
+  height: 100vh;
+  color: black;
+}
+
+.button {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  border-bottom: 1px solid black;
+}
+
+.active-button {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgba(0, 150, 0, 0.5);
+  border-bottom: 1px solid black;
+}
+
+.Menu-List{
+  width: 15%;
+  min-width: 150px;
+  background-color: rgba(50, 250, 50, 0.5);
+  height: 100vh;
+}
+
+.Menu{
+  margin: 0px;
+  padding-left: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.button{
+  width: 100%;
+  margin: 0px;
+}
+
+.button:hover{
+  background-color: rgba(0, 150, 0, 0.5);
+}
+
+.buttonText{
+  margin: 0px;
+  padding-top: 20px;
+  width: 80%;
+  font-weight: 500;
+  text-decoration: none;
+  color: black;
+  text-align: start;
+}
+
+p{
+  color: black;
+}
+
+.prophile{
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+
+.pr0{
+  border-right: 1px solid black;
+  text-align: center;
+  height: 100vh;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+}
+
+.pr1, .pr2{
+  text-align: center;
+  width: 100%;
+}
+
+.a{
+  text-align: end;
+  color: black;
+  font-size: 130%;
+}
+
+.b{
+  text-align: start;
+  color: black;
+  font-size: 130%;
+}
+
+.zaprosy{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.zapros{
+  width: 100%;
+  height: 7%;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  margin-bottom: 2%;
+}
+
+.asd{
+  text-align: center;
+  padding: 0;
+  height: 100%;
+  border-right: 1px solid black;
+}

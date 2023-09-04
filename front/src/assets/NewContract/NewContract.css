@@ -1,0 +1,43 @@
+.newContract{
+    width: 90%;
+    height: 90%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+.newContract-form{
+    width: 100%;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.user-info{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border-right: 1px solid black;
+}
+
+.contract-info{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.aa1{
+    width: 90%;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.prew{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid black;
+    font-size: large;
+    font-weight: bolder;
+}

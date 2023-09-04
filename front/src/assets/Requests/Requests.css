@@ -1,0 +1,74 @@
+.req{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+}
+
+.tpbtn{
+    background-color: rgba(50, 250, 50, 0.5);
+    height: 40px;
+    width: 20%;
+}
+
+.atpbtn{
+    background-color: rgba(0, 150, 0, 0.5);
+    height: 40px;
+    width: 20%;
+}
+
+.tpbtn:hover{
+    background-color: rgba(0, 150, 0, 0.5);
+}
+
+.reqList{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+.typeButtons{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+}
+
+.list{
+    height: 7%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.qwer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+}
+
+.req-info{
+    text-align: center;
+    border: 1px solid black;
+    width: 20%;
+    padding-top: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.answer{
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(50, 250, 50, 0.5);
+}
+
+.answer:hover{
+    background-color: rgba(0, 150, 0, 0.5);
+}

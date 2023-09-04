@@ -1,0 +1,55 @@
+.content111{
+    height: 100vh;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.month{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2.5%;
+    padding-bottom: 5%;
+}
+
+.but{
+    margin-left: 10%;
+    background-color: rgba(50, 250, 50, 0.5);
+    height: 50px;
+    width: 30%;
+}
+
+.but:hover{
+    background-color: rgba(0, 150, 0, 0.5);
+}
+
+.abut{
+    margin-left: 10%;
+    background-color: rgba(0, 150, 0, 0.5);
+    height: 50px;
+}
+
+.c{
+    font-size: 130%;
+}
+
+.payslip{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+}
+
+#report{
+    width: 100%;
+    border: 1px solid black; 
+    margin-bottom: 5%;   
+}
+
+.d{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}

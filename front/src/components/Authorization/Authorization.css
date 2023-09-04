@@ -1,0 +1,57 @@
+.Authorization{
+    background: rgba(50, 250, 50, 0.5);
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+    margin: 0;
+    text-align: start;
+    padding-top: 20px;
+    width: 80%;
+    color: white;
+}
+
+#Password, #Login{
+    width: 80%;
+}
+
+.Anketa{
+    background: rgb(100, 100, 100);
+    width: 25%;
+    min-width: 300px;
+    height: 70%;
+    min-height: 300px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Accept-button{
+    background-color: rgba(50, 250, 50, 0.5);
+    height: 25px;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 40%;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+.Accept-button:hover{
+    background-color: lime;
+}
+
+.Input{
+    height: 60%;
+}
+
+.p{
+    color: white;
+    text-align: start;
+}
